@@ -1,0 +1,523 @@
+[
+    {
+      "flightId": "IN101",
+      "flightNumber": "TN101",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "06:30:00Z",
+        "terminal": "T1",
+        "gate": "2A"
+      },
+      "arrival": {
+        "airport": "Mumbai International Airport",
+        "city": "Mumbai",
+        "time": "08:30:00Z",
+        "terminal": "T2",
+        "gate": "4C"
+      },
+      "duration": "2h",
+      "price": 3200.00,
+      "currency": "INR",
+      "aircraftType": "Boeing 737",
+      "classOptions": ["Economy", "Business", "First Class"],
+      "seatsAvailable": { "economy": 120, "business": 20, "firstClass": 5 },
+      "amenities": ["WiFi", "In-flight entertainment", "Meals"]
+    },
+    {
+      "flightId": "IN102",
+      "flightNumber": "TN102",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "09:00:00Z",
+        "terminal": "T1",
+        "gate": "3B"
+      },
+      "arrival": {
+        "airport": "Delhi Indira Gandhi International Airport",
+        "city": "Delhi",
+        "time": "11:45:00Z",
+        "terminal": "T3",
+        "gate": "5B"
+      },
+      "duration": "2h 45m",
+      "price": 4000.00,
+      "currency": "INR",
+      "aircraftType": "Airbus A320",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 140, "business": 20 },
+      "amenities": ["WiFi", "USB charging ports", "Complimentary snacks"]
+    },
+    {
+      "flightId": "IN103",
+      "flightNumber": "TN103",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "11:00:00Z",
+        "terminal": "T2",
+        "gate": "4A"
+      },
+      "arrival": {
+        "airport": "Kolkata Netaji Subhash Chandra Bose International Airport",
+        "city": "Kolkata",
+        "time": "13:30:00Z",
+        "terminal": "T1",
+        "gate": "7A"
+      },
+      "duration": "2h 30m",
+      "price": 3500.00,
+      "currency": "INR",
+      "aircraftType": "Boeing 737",
+      "classOptions": ["Economy", "Business", "Premium Economy"],
+      "seatsAvailable": { "economy": 130, "business": 15, "premiumEconomy": 20 },
+      "amenities": ["Meals", "In-flight entertainment"]
+    },
+    {
+      "flightId": "IN104",
+      "flightNumber": "TN104",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "13:00:00Z",
+        "terminal": "T1",
+        "gate": "5C"
+      },
+      "arrival": {
+        "airport": "Hyderabad Rajiv Gandhi International Airport",
+        "city": "Hyderabad",
+        "time": "14:15:00Z",
+        "terminal": "T2",
+        "gate": "3B"
+      },
+      "duration": "1h 15m",
+      "price": 1500.00,
+      "currency": "INR",
+      "aircraftType": "ATR 72",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 50, "business": 8 },
+      "amenities": ["Complimentary snacks", "In-flight refreshments"]
+    },
+    {
+      "flightId": "IN105",
+      "flightNumber": "TN105",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "15:30:00Z",
+        "terminal": "T3",
+        "gate": "6A"
+      },
+      "arrival": {
+        "airport": "Ahmedabad Sardar Vallabhbhai Patel International Airport",
+        "city": "Ahmedabad",
+        "time": "17:45:00Z",
+        "terminal": "T1",
+        "gate": "9B"
+      },
+      "duration": "2h 15m",
+      "price": 2900.00,
+      "currency": "INR",
+      "aircraftType": "Airbus A321",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 180, "business": 20 },
+      "amenities": ["WiFi", "In-flight entertainment", "Meals"]
+    },
+    {
+      "flightId": "IN106",
+      "flightNumber": "TN106",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "18:00:00Z",
+        "terminal": "T1",
+        "gate": "4B"
+      },
+      "arrival": {
+        "airport": "Goa International Airport",
+        "city": "Goa",
+        "time": "20:00:00Z",
+        "terminal": "T2",
+        "gate": "3C"
+      },
+      "duration": "2h",
+      "price": 2500.00,
+      "currency": "INR",
+      "aircraftType": "Boeing 737",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 120, "business": 20 },
+      "amenities": ["Complimentary snacks", "In-flight refreshments"]
+    },
+    {
+      "flightId": "IN107",
+      "flightNumber": "TN107",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "08:00:00Z",
+        "terminal": "T2",
+        "gate": "1D"
+      },
+      "arrival": {
+        "airport": "Bangalore Kempegowda International Airport",
+        "city": "Bangalore",
+        "time": "09:00:00Z",
+        "terminal": "T1",
+        "gate": "4E"
+      },
+      "duration": "1h",
+      "price": 2000.00,
+      "currency": "INR",
+      "aircraftType": "Airbus A320",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 160 },
+      "amenities": ["WiFi"]
+    },
+    {
+      "flightId": "IN108",
+      "flightNumber": "TN108",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "14:00:00Z",
+        "terminal": "T1",
+        "gate": "2B"
+      },
+      "arrival": {
+        "airport": "Pune International Airport",
+        "city": "Pune",
+        "time": "15:45:00Z",
+        "terminal": "T1",
+        "gate": "3A"
+      },
+      "duration": "1h 45m",
+      "price": 2600.00,
+      "currency": "INR",
+      "aircraftType": "ATR 72",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 50 },
+      "amenities": ["Complimentary snacks"]
+    },
+    {
+      "flightId": "IN109",
+      "flightNumber": "TN109",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "07:30:00Z",
+        "terminal": "T3",
+        "gate": "5D"
+      },
+      "arrival": {
+        "airport": "Jaipur International Airport",
+        "city": "Jaipur",
+        "time": "10:30:00Z",
+        "terminal": "T1",
+        "gate": "6C"
+      },
+      "duration": "3h",
+      "price": 3000.00,
+      "currency": "INR",
+      "aircraftType": "Airbus A321",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 100, "business": 10 },
+      "amenities": ["WiFi", "In-flight entertainment"]
+    },
+    {
+      "flightId": "IN110",
+      "flightNumber": "TN110",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "19:00:00Z",
+        "terminal": "T1",
+        "gate": "1A"
+      },
+      "arrival": {
+        "airport": "Coimbatore International Airport",
+        "city": "Coimbatore",
+        "time": "20:00:00Z",
+        "terminal": "T1",
+        "gate": "2B"
+      },
+      "duration": "1h",
+      "price": 1800.00,
+      "currency": "INR",
+      "aircraftType": "ATR 72",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 50, "business": 8 },
+      "amenities": ["Complimentary snacks"]
+    },
+    {
+      "flightId": "IN111",
+      "flightNumber": "TN111",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "17:00:00Z",
+        "terminal": "T3",
+        "gate": "6C"
+      },
+      "arrival": {
+        "airport": "Madurai Airport",
+        "city": "Madurai",
+        "time": "18:00:00Z",
+        "terminal": "T1",
+        "gate": "1A"
+      },
+      "duration": "1h",
+      "price": 1600.00,
+      "currency": "INR",
+      "aircraftType": "ATR 72",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 50 },
+      "amenities": ["Complimentary snacks"]
+    },
+    {
+      "flightId": "IN112",
+      "flightNumber": "TN112",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "20:30:00Z",
+        "terminal": "T1",
+        "gate": "2C"
+      },
+      "arrival": {
+        "airport": "Tiruchirappalli International Airport",
+        "city": "Tiruchirappalli",
+        "time": "21:30:00Z",
+        "terminal": "T1",
+        "gate": "3A"
+      },
+      "duration": "1h",
+      "price": 1800.00,
+      "currency": "INR",
+      "aircraftType": "ATR 72",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 50 },
+      "amenities": ["Complimentary snacks"]
+    },
+    {
+      "flightId": "IN113",
+      "flightNumber": "TN113",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "22:00:00Z",
+        "terminal": "T2",
+        "gate": "4A"
+      },
+      "arrival": {
+        "airport": "Visakhapatnam Airport",
+        "city": "Visakhapatnam",
+        "time": "00:30:00Z",
+        "terminal": "T1",
+        "gate": "5B"
+      },
+      "duration": "2h 30m",
+      "price": 3500.00,
+      "currency": "INR",
+      "aircraftType": "Airbus A320",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 150 },
+      "amenities": ["WiFi", "Meals"]
+    },
+    {
+      "flightId": "IN114",
+      "flightNumber": "TN114",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "05:00:00Z",
+        "terminal": "T1",
+        "gate": "1B"
+      },
+      "arrival": {
+        "airport": "Raipur Airport",
+        "city": "Raipur",
+        "time": "07:15:00Z",
+        "terminal": "T1",
+        "gate": "3C"
+      },
+      "duration": "2h 15m",
+      "price": 2900.00,
+      "currency": "INR",
+      "aircraftType": "Boeing 737",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 120, "business": 15 },
+      "amenities": ["In-flight entertainment", "Meals"]
+    },
+    {
+      "flightId": "IN115",
+      "flightNumber": "TN115",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "09:30:00Z",
+        "terminal": "T3",
+        "gate": "6B"
+      },
+      "arrival": {
+        "airport": "Bhopal Raja Bhoj Airport",
+        "city": "Bhopal",
+        "time": "11:30:00Z",
+        "terminal": "T1",
+        "gate": "2D"
+      },
+      "duration": "2h",
+      "price": 2700.00,
+      "currency": "INR",
+      "aircraftType": "ATR 72",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 50 },
+      "amenities": ["Complimentary snacks"]
+    },
+    {
+      "flightId": "IN116",
+      "flightNumber": "TN116",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "12:30:00Z",
+        "terminal": "T1",
+        "gate": "1A"
+      },
+      "arrival": {
+        "airport": "Indore Devi Ahilya Bai Holkar Airport",
+        "city": "Indore",
+        "time": "14:30:00Z",
+        "terminal": "T1",
+        "gate": "5A"
+      },
+      "duration": "2h",
+      "price": 2400.00,
+      "currency": "INR",
+      "aircraftType": "Boeing 737",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 120 },
+      "amenities": ["WiFi", "Complimentary snacks"]
+    },
+    {
+      "flightId": "IN117",
+      "flightNumber": "TN117",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "17:15:00Z",
+        "terminal": "T2",
+        "gate": "3C"
+      },
+      "arrival": {
+        "airport": "Lucknow Chaudhary Charan Singh International Airport",
+        "city": "Lucknow",
+        "time": "19:45:00Z",
+        "terminal": "T1",
+        "gate": "4A"
+      },
+      "duration": "2h 30m",
+      "price": 3100.00,
+      "currency": "INR",
+      "aircraftType": "Airbus A320",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 130, "business": 15 },
+      "amenities": ["WiFi", "In-flight entertainment"]
+    },
+    {
+      "flightId": "IN118",
+      "flightNumber": "TN118",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "08:15:00Z",
+        "terminal": "T1",
+        "gate": "2A"
+      },
+      "arrival": {
+        "airport": "Dehradun Jolly Grant Airport",
+        "city": "Dehradun",
+        "time": "10:30:00Z",
+        "terminal": "T1",
+        "gate": "3B"
+      },
+      "duration": "2h 15m",
+      "price": 3200.00,
+      "currency": "INR",
+      "aircraftType": "Boeing 737",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 100, "business": 10 },
+      "amenities": ["WiFi", "In-flight entertainment"]
+    },
+    {
+      "flightId": "IN119",
+      "flightNumber": "TN119",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "14:15:00Z",
+        "terminal": "T2",
+        "gate": "1B"
+      },
+      "arrival": {
+        "airport": "Guwahati Lokpriya Gopinath Bordoloi International Airport",
+        "city": "Guwahati",
+        "time": "16:30:00Z",
+        "terminal": "T1",
+        "gate": "2C"
+      },
+      "duration": "2h 15m",
+      "price": 3400.00,
+      "currency": "INR",
+      "aircraftType": "Airbus A321",
+      "classOptions": ["Economy", "Business"],
+      "seatsAvailable": { "economy": 120, "business": 10 },
+      "amenities": ["Meals", "In-flight entertainment"]
+    },
+    {
+      "flightId": "IN120",
+      "flightNumber": "TN120",
+      "airline": "Tamil Nadu Airlines",
+      "departure": {
+        "airport": "Chennai International Airport",
+        "city": "Chennai",
+        "time": "21:00:00Z",
+        "terminal": "T1",
+        "gate": "5B"
+      },
+      "arrival": {
+        "airport": "Mangaluru International Airport",
+        "city": "Mangaluru",
+        "time": "23:00:00Z",
+        "terminal": "T1",
+        "gate": "3A"
+      },
+      "duration": "2h",
+      "price": 3000.00,
+      "currency": "INR",
+      "aircraftType": "ATR 72",
+      "classOptions": ["Economy"],
+      "seatsAvailable": { "economy": 50 },
+      "amenities": ["WiFi", "In-flight refreshments"]
+    }
+  ]
+
